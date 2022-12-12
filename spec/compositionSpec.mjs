@@ -67,11 +67,13 @@ describe('Application', function () {
     nodeB.corner = {left: bCorner.left + 10, top: bCorner.top}; // The individual corner left and right are not rules. Must set as a whole!
     nodeA.corner = {left: aCorner.left, top: aCorner.top + 10};
     await tick();
+    await tick(); // It can take two...
     expect(boxB.display.style.left).toBe(nodeB.corner.left + 'px');
     expect(boxA.display.style.top).toBe(nodeA.corner.top + 'px');
     nodeB.corner = bCorner;
     nodeA.corner = aCorner;
     await tick();
+    await tick(); // It can take two...
   });
   it('box displays are in document.', async function () {
     await tick(); // If this test runs soon enough after beforeAll, the DOM may not yet have responded to appending elements.

@@ -1,7 +1,7 @@
 {
-  "name": "@kilroy-code/composition",
-  "version": "0.0.1",
-  "description": "A ki1r0y single-page app, page, or scene.",
+  "name": "@kilroy-code/compositions",
+  "version": "0.0.3",
+  "description": "ki1r0y single-page apps, pages, or scenes.",
   "keywords": [
     "browser",
     "nodejs"
@@ -17,18 +17,18 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kilroy-code/composition.git"
+    "url": "git+https://github.com/kilroy-code/compositions.git"
   },
-  "homepage": "https://github.com/kilroy-code/composition#readme",
+  "homepage": "https://github.com/kilroy-code/compositions#readme",
   "bugs": {
-    "url": "https://github.com/kilroy-code/composition/issues"
+    "url": "https://github.com/kilroy-code/compositions/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@kilroy-code/api-key": "^0.0.1",
-    "@kilroy-code/block": "^0.0.3",
+    "@kilroy-code/blocks": "^0.0.4",
     "@kilroy-code/rules": "^1.0.5",
     "jsdom": "^20.0.3",
     "nanoid": "^4.0.0"
