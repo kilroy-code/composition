@@ -31,6 +31,7 @@
     "nanoid": "^4.0.0"
   },
   "devDependencies": {
+    "@kilroy-code/utilities": "^1.0.6",
     "jasmine": "^4.5.0"
   }
 }
