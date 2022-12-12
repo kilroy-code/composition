@@ -28,6 +28,8 @@
   },
   "dependencies": {
     "@kilroy-code/api-key": "^0.0.1",
+    "@kilroy-code/block": "^0.0.3",
+    "@kilroy-code/rules": "^1.0.5",
     "jsdom": "^20.0.3",
     "nanoid": "^4.0.0"
   },

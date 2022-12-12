@@ -1,6 +1,6 @@
-import { getKey } from '../api-key/index.mjs';
-import { CroquetBlock as Block, Ruled } from '../block/index.mjs';
-import { Rule } from '../rules/index.mjs';
+import { getKey } from '@kilroy-code/api-key/index.mjs';
+import { CroquetBlock as Block, Ruled } from '@kilroy-code/block/index.mjs';
+import { Rule } from '@kilroy-code/rules/index.mjs';
 import { nanoid } from 'nanoid';
 export const { document } = (typeof window !== 'undefined') ? window : (new (await import('jsdom')).JSDOM('')).window;
 
