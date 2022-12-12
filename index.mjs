@@ -1,4 +1,4 @@
-import { getKey } from '@kilroy-code/api-key/index.mjs';
+import { getKey } from '@kilroy-code/api-keys/index.mjs';
 import { CroquetBlock as Block, Ruled } from '@kilroy-code/blocks/index.mjs';
 import { Rule } from '@kilroy-code/rules/index.mjs';
 import { nanoid } from 'nanoid';
