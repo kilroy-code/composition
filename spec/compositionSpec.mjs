@@ -1,6 +1,6 @@
+import { tick } from '@kilroy-code/utilities/delay.mjs';
+import { Croquet } from '@kilroy-code/utilities/croquet.mjs';
 import { Composition, document } from '../index.mjs';
-import { tick } from '../../utilities/delay.mjs';
-import { Croquet } from '../../utilities/croquet.mjs';
 Croquet.App.root = false; // Disable the default Croquet overlay so we can see Jasmine report from start to finish.
 
 describe('Application', function () {
