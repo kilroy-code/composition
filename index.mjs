@@ -1,7 +1,7 @@
 import { getKey } from '../api-key/index.mjs';
 import { CroquetBlock as Block, Ruled } from '../block/index.mjs';
 import { Rule } from '../rules/index.mjs';
-import { nanoid } from '../../javascripts/nanoid.mjs';
+import { nanoid } from 'nanoid';
 export const { document } = (typeof window !== 'undefined') ? window : (new (await import('jsdom')).JSDOM('')).window;
 
 export class Content extends Ruled {

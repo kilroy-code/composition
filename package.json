@@ -24,10 +24,11 @@
     "url": "https://github.com/kilroy-code/composition/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kilroy-code"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
-    "jsdom": "^20.0.3"
+    "jsdom": "^20.0.3",
+    "nanoid": "^4.0.0"
   },
   "devDependencies": {
     "jasmine": "^4.5.0"
