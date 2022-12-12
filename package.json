@@ -27,6 +27,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
+    "@kilroy-code/api-key": "^0.0.1",
     "jsdom": "^20.0.3",
     "nanoid": "^4.0.0"
   },
